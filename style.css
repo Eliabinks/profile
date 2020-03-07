@@ -1,0 +1,100 @@
+body {
+  background-color: #D9DD78;
+  color: black;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 25px
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color:black;
+  font-size: 43px;
+}
+
+
+#photo-css {
+  border-radius: 35%;
+  padding: 41px;
+}
+
+h1, h2, h3, h4{
+  font-weight: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold
+}
+
+a:hover {
+  color: grey;
+}
+
+
+.container {
+  width: 1275px;
+  margin: 14px auto;
+  padding: 32px 35px;
+  border-radius: 9px;
+}
+
+
+.laal-btn {
+  background-color: #D9DD78;
+  color: black;
+  padding: 20px 8px;
+  border-radius: 10px;
+}
+
+.laal-btn:hover {
+  background-color:black;
+  color: white;
+}
+
+.card{
+  background-color: white;
+  padding: 35px;
+  box-shadow: 12px 25px 30px rgba(0,0.2,0,0.3);
+  border-radius: 13px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.card:hover{
+  background-color:#BD7A4A;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 8px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.list-inline{
+  font-size: 45px;
+}
+
+#introduction p{
+  margin-bottom: 22px;
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 650px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 365px;
+  }
+}
